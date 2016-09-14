@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import rx.Observable;
-import rx.Subscriber;
 import rx.functions.Action1;
 import rx.functions.Func1;
 
@@ -34,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                         System.out.println("TAG " + s);
                     }
                 });
+
+        String a;
+        String b;
+        String c;
 
     }
 }
